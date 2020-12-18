@@ -1,0 +1,16 @@
+set up server
+  x  create public folder
+  x  create index.html
+  x  create server.js
+  x  create client.js
+  x  bring in jquery
+  x  run npm init
+  x  run install express
+
+set up html
+    2 inputs
+    4 operator buttons
+    1 submit button
+    1 clear button
+    1 result field
+    unordered list
