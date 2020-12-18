@@ -3,14 +3,23 @@ set up server
   x  create index.html
   x  create server.js
   x  create client.js
+  x  create style.css
+  x  create vendor folder
   x  bring in jquery
   x  run npm init
-  x  run install express
+  x  run npm install express
 
 set up html
+    html setup
     2 inputs
     4 operator buttons
     1 submit button
     1 clear button
     1 result field
     unordered list
+
+server.js
+    enter main lines of code (i think there are about 6-7 that are in every server file)
+
+
+
