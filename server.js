@@ -1,5 +1,5 @@
 const express = require('express');
-const bodyParser = ('body-parser');
+const bodyParser = require('body-parser');
 
 //call express function, create server & save in app
 const app = express();

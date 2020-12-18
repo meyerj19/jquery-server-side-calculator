@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/meyerj19/jquery-server-side-calculator/issues"
   },
-  "homepage": "https://github.com/meyerj19/jquery-server-side-calculator#readme"
+  "homepage": "https://github.com/meyerj19/jquery-server-side-calculator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
