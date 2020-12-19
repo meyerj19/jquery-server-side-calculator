@@ -10,6 +10,17 @@ app.use(express.static('server/public'));
 
 app.use(bodyParser.urlencoded({extended : true}));
 
+//serve data
+const equation = [first, sign, second];
+app.post('/data', (req, res) => {
+    //retrieve sent data
+    let newEquation = req.body;
+    console.log(newEquation)
+    equation.push(newEquation);
+    res.sendStatus(201);
+});
+
+
 
 
 

@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Calculator</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="vendors/jquery-3.5.1.js"></script>
-        <script src="client.js"></script>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Server Side Calculator</h1>
-        <input placeholder="1st number"/>
-        <button id="add">+</button>
-        <button id="minus">-</button>
-        <button id="multiply">*</button>
-        <button id="divide">/</button>
-        <input placeholder="2nd number"/>
-        <button id="equals">=</button>
-        <button>C</button>
-        <div id="answer"></div>
-        <ul id="equation"></ul>
-        
-        
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="vendor/jquery-3.5.1.min.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Server Side Calculator</h1>
+    <input id="firstNumber" placeholder="firstNumber" />
+    <button class="operand" id="add">+</button>
+    <button class="operand" id="minus">-</button>
+    <button class="operand" id="multiply">*</button>
+    <button class="operand" id="divide">/</button>
+    <input id="secondNumber" placeholder="secondNumber" />
+    <button id="equals">=</button>
+    <button>C</button>
+    <div id="answer"></div>
+    <ul id="equation"></ul>
+
+
+</body>
+
 </html>
