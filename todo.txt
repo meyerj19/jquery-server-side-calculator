@@ -10,16 +10,16 @@ set up server
   x  run npm install express
 
 set up html
-    html setup
-    2 inputs
-    4 operator buttons
-    1 submit button
-    1 clear button
-    1 result field
-    unordered list
+   x html setup
+   x 2 inputs
+   x 4 operator buttons
+   x 1 equal button
+   x 1 clear button
+   x 1 result field
+   x unordered list
 
 server.js
   x  enter main lines of code (i think there are about 6-7 that are in every server file)
 
-
+client.js
 
